@@ -1,0 +1,45 @@
+div{
+    height: 150%;
+    margin-top: auto;
+    backdrop-filter: blur(10px);
+    background-blend-mode: lighten;
+    display: flex;
+    box-shadow: 20px 20px 175px;
+}
+
+body{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+form{
+    margin-top: 25%;
+    background-blend-mode: lighten;
+    position: relative;
+    box-shadow: 20px 20px 175px;
+    border-radius: 1000000px;
+    background: rgba(255, 255, 255, 0.377);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    pointer-events: none;
+}
+
+button{   
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: none; 
+    margin-left: 5%;       
+    margin-top: 10%;  
+}
+
+
+
+
